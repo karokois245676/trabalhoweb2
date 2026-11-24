@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Início</title>
+</head>
+<body>
+  <button onclick="location.href='/'">Início</button>
+  <button onclick="location.href='/sobre'">Sobre</button>
+  <button onclick="location.href='/contato'">Contato</button>
+  <h1>Bem-vindo ao meu site</h1>
+  <p>Este site foi feito com Node.js e Express.</p>
+  <h2>Quiz: que tipo de dev você é?</h2>
+  <form action="/quiz">
+    <p>O que você mais curte fazer?</p>
+    <label><input type="radio" name="resposta" value="games" required> Jogar videogame</label><br>
+    <label><input type="radio" name="resposta" value="web"> Postar fotos e vídeos nas redes</label><br>
+    <button type="submit">Ver meu resultado</button>
+  </form>
+</body>
+</html>
